@@ -2,10 +2,28 @@
 This repository is about AVA dataset processing to train object detection for the person class only. <br/>
 The AVA dataset can also be used for various tasks, not only person detection. Please, check [the official document](https://research.google.com/ava/index.html) for more detail.
 
+<br/>
 
 ### AVA Actions Download 
 * [Click here](https://research.google.com/ava/download.html#ava_kinetics_download) and download the '**ava_v2.2.zip**'. Then, extract the files.   
 * '**ava_v2.2.zip**' includes various annotation files. 
+    ```bash
+    # Run setup.sh for simplification.
+    ~$ bash setup.sh
+    ```
+
+<br/>
+<br/>
+
+### Downloading YouTube Videos and Taking Image Frames from Them 
+* The '**ava_youtube_download.py**' is for downloading YouTube Videos according to the video name lists.
+* The '**cut_frames_from_videos.py**' will cut frames from the videos and return images but also bbox annotations (annotations are written in 'csv' format).
+    ``` bash
+    # Run the code following order below.
+    ~$ python ava_youtube_download.py
+    ~$ python cut_frames_from_video.py
+    ```
+
 
 <br/>
 <br/>
@@ -22,13 +40,7 @@ The AVA dataset can also be used for various tasks, not only person detection. P
 
     ```
 
-
-<br/>
-<br/>
-
-### Downloading YouTube Videos and Taking Image Frames from Them 
-* The '**ava_youtube_download.py**' is for downloading YouTube Videos according to the video name lists.
-* The '**cut_frames_from_videos.py**' will cut frames from the videos and return images but also bbox annotations (annotations are written in 'csv' format).
+(ongoing...)
 
 
 
