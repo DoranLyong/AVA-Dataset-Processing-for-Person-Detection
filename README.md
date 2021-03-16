@@ -13,7 +13,6 @@ The AVA dataset can also be used for various tasks, not only person detection. P
     ```
 
 <br/>
-<br/>
 
 ### Downloading YouTube Videos and Taking Image Frames from Them 
 * The '**ava_youtube_download.py**' is for downloading YouTube Videos according to the video name lists.
@@ -25,7 +24,6 @@ The AVA dataset can also be used for various tasks, not only person detection. P
     ```
 
 
-<br/>
 <br/>
 
 ### Detection Labels 
