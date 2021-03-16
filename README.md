@@ -5,7 +5,8 @@ The AVA dataset can also be used for various tasks, not only person detection. P
 <br/>
 
 ### AVA Actions Download 
-* [Click here](https://research.google.com/ava/download.html#ava_kinetics_download) and download the '**ava_v2.2.zip**'. Then, extract the files.   
+* make a directory, named```'dataset'``` , in the current working directory.
+* [Click here](https://research.google.com/ava/download.html#ava_kinetics_download) and download the '**ava_v2.2.zip**' to the ```dataset```. Then, extract the files.   
 * '**ava_v2.2.zip**' includes various annotation files. 
     ```bash
     # Run setup.sh for simplification.
