@@ -3,6 +3,7 @@
 #%%
 import os 
 import os.path as osp 
+from glob import glob
 
 from tqdm  import tqdm 
 import subprocess   # 파이썬에서 쉘 명령을 실행할 수 있게 해주는 라이브러리 
@@ -10,7 +11,7 @@ import subprocess   # 파이썬에서 쉘 명령을 실행할 수 있게 해주�
                     # (ref) http://www.incodom.kr/%ED%8C%8C%EC%9D%B4%EC%8D%AC/%EB%9D%BC%EC%9D%B4%EB%B8%8C%EB%9F%AC%EB%A6%AC/subprocess
 import youtube_dl   # 유튜브 영상 다운로드 패키지; (ref) https://velog.io/@okstring/%ED%8C%8C%EC%9D%B4%EC%8D%AC%EC%9C%BC%EB%A1%9C-%EC%9C%A0%ED%8A%9C%EB%B8%8C-%EB%8F%99%EC%98%81%EC%83%81-%EB%8B%A4%EC%9A%B4%EB%B0%9B%EA%B8%B0youtubedl
 import pandas as pd
-from glob import glob
+
                     
 
 cwd = os.getcwd()

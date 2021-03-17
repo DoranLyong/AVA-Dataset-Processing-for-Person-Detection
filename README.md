@@ -15,6 +15,19 @@ The AVA dataset can also be used for various tasks, not only person detection. P
 
 <br/>
 
+### Requirements 
+Install required python packages with PyPI. 
+* Run the command like below:
+    ``` bash
+    ~$ pip install -r requirements.txt
+    ```
+
+
+
+
+
+<br/>
+
 ### Downloading YouTube Videos and Taking Image Frames from Them 
 * The '**ava_youtube_download.py**' is for downloading YouTube Videos according to the video name lists.
 * The '**cut_frames_from_videos.py**' will cut frames from the videos and return images but also bbox annotations (annotations are written in 'csv' format).

@@ -1,0 +1,7 @@
+tqdm 
+subprocess.run
+pandas
+youtube_dl
+opencv-python
+numpy 
+natsort

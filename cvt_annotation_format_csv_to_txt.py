@@ -5,14 +5,14 @@ import sys
 import os 
 import os.path as osp 
 import random
+import csv
+from glob import glob
 
 from tqdm  import tqdm 
 import subprocess   # 파이썬에서 쉘 명령을 실행할 수 있게 해주는 라이브러리 
                     # os.system 보다 더 다양항 기능을 제공함
                     # (ref) http://www.incodom.kr/%ED%8C%8C%EC%9D%B4%EC%8D%AC/%EB%9D%BC%EC%9D%B4%EB%B8%8C%EB%9F%AC%EB%A6%AC/subprocess
 import pandas as pd
-from glob import glob
-import csv 
 import cv2
 import numpy as np 
 import natsort ## 숫자 정렬용 라이브러리
