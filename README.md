@@ -1,6 +1,6 @@
 # AVA Dataset Processing for Person Detection
 This repository is about AVA dataset processing to train object detection for the person class only. <br/>
-The AVA dataset can also be used for various tasks, not only person detection. Please, check [the official document](https://research.google.com/ava/index.html) for more detail.
+The AVA dataset can also be used for various tasks, not only person detection. Please, check [the official document](https://research.google.com/ava/index.html) for more details.
 
 <br/>
 
