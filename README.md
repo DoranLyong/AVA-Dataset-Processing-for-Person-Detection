@@ -47,9 +47,13 @@ Install required python packages with PyPI.
 * In my case, I will use `yolo_v5 format` like in this [tutorial](https://blog.roboflow.com/how-to-train-a-custom-mobile-object-detection-model/).
     ``` bash
     # For example,
-    # class |  bbox coordinates in ratio format | in .txt file 
+    # class |  center x | center y | width | height  in .txt file 
     0 0.002 0.118 0.714 0.977 
 
+    ```
+* In order to get the ```YOLO``` format annotation, run the code like below:
+    ```bash
+    ~$ python cvt_annotation_format_csv_to_txt.py
     ```
 
 (ongoing...)
