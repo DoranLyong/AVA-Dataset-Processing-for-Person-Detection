@@ -55,6 +55,10 @@ Install required python packages with PyPI.
     ```bash
     ~$ python cvt_annotation_format_csv_to_txt.py
     ```
+* For checking the results: 
+    ```bash
+    ~$ python label_test.py
+    ```
 
 ### ※ Notification 
 When you start downloading the ```train``` and ```val``` dataset by runing ```ava_youtube_download.py```, it might  take pretty much time for done. So, in my case, I only downloaded and used ```val``` dataset. That's why the trainset downloading and processing code blocks are commented in ```ava_youtube_download.py``` and ```cut_frames_from_video.py```. <br/>
