@@ -208,7 +208,7 @@ if __name__ == '__main__':
     unique_valNames = pd.unique(val_list.loc[:,0]) 
     
 
-    loop_getImageFrame(train_list, trainVideo_path, train_imgPath, unique_trainNames, train_labelPath )  # get train data
+#    loop_getImageFrame(train_list, trainVideo_path, train_imgPath, unique_trainNames, train_labelPath )  # get train data
     loop_getImageFrame(val_list, valVideo_path, val_imgPath, unique_valNames, val_labelPath )  # get val data
 
 

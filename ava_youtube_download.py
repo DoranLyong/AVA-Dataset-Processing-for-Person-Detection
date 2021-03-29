@@ -87,7 +87,7 @@ if __name__ == '__main__':
     print(f"Total train_video numbers: {len(unique_trainNames)}")
     print(f"Total val_video numbers: {len(unique_valNames)}")
     
-    loop_Download(unique_trainNames, trainDir_path)  # train 용 비디오 다운 
+#    loop_Download(unique_trainNames, trainDir_path)  # train 용 비디오 다운 
     loop_Download(unique_valNames, valDir_path )    # val 용 비디오 다운 
 
 
