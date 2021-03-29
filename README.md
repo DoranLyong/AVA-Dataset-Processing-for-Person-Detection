@@ -56,11 +56,19 @@ Install required python packages with PyPI.
     ~$ python cvt_annotation_format_csv_to_txt.py
     ```
 
-(ongoing...)
+### ※ Notification 
+When you start downloading the ```train``` and ```val``` dataset by runing ```ava_youtube_download.py```, it might  take pretty much time for done. So, in my case, I only downloaded and used ```val``` dataset. That's why the trainset downloading and processing code blocks are commented in ```ava_youtube_download.py``` and ```cut_frames_from_video.py```. <br/>
+
+If you want to use all, please cancel these comments for:
+* ```loop_Download(unique_trainNames, trainDir_path) ``` in 'ava_youtube_download.py'
+* ```loop_getImageFrame(train_list, trainVideo_path, train_imgPath, unique_trainNames, train_labelPath )``` in 'cut_frames_from_video.py'
 
 
+### Person Detection with Yolov4-tiny 
+I trained this dataset for person detection task. The custom trained model was uploaded [here](https://github.com/DoranLyong/yolov4-tiny-tflite-for-person-detection). You can check how to set up the environments for your custom training there.
 
 ***
 ## Reference 
 [1] [AVA Dataset Downloader Script, alainary, github](https://github.com/alainray/ava_downloader) / 동영상 다운받고 프레임 처리하는 방식 참고 <br/>
 [2] [AVA dataset](https://research.google.com/ava/download.html) / DB 홈피 <br/>
+[3] [yolov4-tiny-tflite-for-person-detection, github](https://github.com/DoranLyong/yolov4-tiny-tflite-for-person-detection) / 내가 학습한 person detector <br/>
