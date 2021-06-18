@@ -134,6 +134,11 @@ def loop_getImageFrame(data_list, videos_path, img_path, unique_Names, label_pat
                     img_title = f"{instance[0]}_{instance[1]}.jpg"  # 추출한 이미지 이름; {name}_{timestamp}.jpg
 
                     if not osp.exists(osp.join(img_path, img_title)):  # 동일한 timestamp의 이미지는 딱 한 번만 저장하기 
+                        if frame is None: 
+                          """ 이미지 프레임이 없으면 다음으로 
+                          """
+                          continue
+                          
                         save_ok = save_frame(img_path , img_title , frame)
 
                         if not save_ok:
